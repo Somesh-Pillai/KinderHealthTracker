@@ -1,0 +1,93 @@
+<html> 
+<head>     
+      <title>Kinder!</title>    
+    </head>
+<style>    
+.container {  
+  max-width: 1350px;  
+  width: 100%;  
+  margin: 50px;  
+  height: auto;  
+  display: block;  
+}  
+  
+body {  
+  color: #8A2BE2;  
+  font-size: 20px;  
+  font-family: Verdana, Arial, Helvetica, monospace;  
+  background-color: #F0E8A0;  
+}  
+  
+h2 {  
+  text-align: center;  
+}
+h1{
+  text-align: center;
+   color: #ffffff; 
+  }
+h4{
+  text-align: center;
+   color:  #ffffff;
+  }
+.form_group {  
+  padding: 10px;  
+  ;    
+display: block;  
+}  
+  
+label {  
+  float: left;  
+  padding-right: 50px;  
+  line-height: 10%;  
+  display: block;  
+  width: 208px;  
+}  
+  </style>
+    <body>
+     <h1>KINDER!</h1>
+<br>
+   <h4>YOUR HEALTH TRACKER</h4><br>
+      <p>Give in your medical status for weekly report
+        <link href = "registration.css" type = "text/css" rel = "stylesheet" />    
+        <h2>Go Ahead!</h2>    
+        <form name = "form1" action="connect.php" method = "post" enctype = "multipart/form-data" >    
+            <div class = "container">  <br>
+            <div> 
+<iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/fa863408-67a3-4cbe-a5f2-2612a50d23e2">
+</iframe>
+        </div><br>
+                <div class = "form_group">    
+                    <label>Name:</label>    
+                    <input type = "text" name = "name" value = "" required/>    
+                </div>    
+                <div class = "form_group">    
+                    <label>User ID:</label>    
+                    <input type = "text" name = "userid" value = "" required />    
+                </div>    
+                <div class = "form_group">    
+                    <label>Blood Pressure:</label>    
+                    <input type = "text" name = "bp" value = "" required/>    
+                </div>    
+               <div class = "form_group">    
+                    <label>Heart Rate:</label>    
+                    <input type = "text" name = "hr" value = "" required/>    
+                </div> 
+           <div class = "form_group">    
+                    <label>Weight:</label>    
+                    <input type = "text" name = "weight" value = "" required/>    
+                </div>        
+                <div class = "form_group">    
+                    <label>Password:</label> 
+                    <input type = "password" name = "pwd" value = "" required/> </div>
+                      <div class="form_group">  
+                   <label>Submit:</label>    
+                    <button onclick="connect.php">Submit</button>     
+                </div>    
+            </div>    
+        </form>     
+    </body>    
+</html>    
